@@ -18,7 +18,7 @@ namespace SopHiaSqlProject.Controllers
 
         public IActionResult Index()
         {
-            Slider sliders =  _context.Sliders.FirstOrDefault();
+            List<Slider> sliders =  _context.Sliders.ToList();
             return View(sliders);
 
         }

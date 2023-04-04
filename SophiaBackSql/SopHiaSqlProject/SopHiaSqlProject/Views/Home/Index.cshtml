@@ -1,5 +1,5 @@
 ﻿
-@model Slider
+@model List<Slider>
 
 
 @{
@@ -129,33 +129,22 @@
         <section id="cards">
 
             <div class="swiper mySwiper">
+
+
+
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./assets/img/@Model.Image" alt="">
-                        <h1>@Model.Title</h1>
-                        <h3>@Model.Description</h3>
-                        <button class="shop">SHOP NOW</button>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/img/banner3.jpg" alt="">
-                        <h1>Biggest discount</h1>
-                        <h3>Check the promotion</h3>
-                        <button class="shop">SHOP NOW</button>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/img/bb204039-b34f-4d84-8a5b-f7103d896efd.jfif" alt="">
-                        <h1>Biggest sale</h1>
-                        <h3>Dont miss it</h3>
-                        <button class="shop">SHOP NOW</button>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/img/1e9a5a01-6774-460e-9bd5-4eb7850dd724.jfif" alt="">
-                        <h1>Our best products</h1>
-                        <h3>Special selection</h3>
-                        <button class="shop">SHOP NOW</button>
-                    </div>
 
-
+                    @foreach (var item in Model)
+                    {
+                         <div class="swiper-slide">
+                        <img src="./assets/img/@item.Image" alt="">
+                        <h1>@item.Title</h1>
+                        <h3>@item.Description</h3>
+                        <button class="shop">SHOP NOW</button>
+                    </div>
+                    }
+                   
+                  
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
