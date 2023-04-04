@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\COMMIT_EDITMSG" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\config" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\description" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\HEAD" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\applypatch-msg.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\commit-msg.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\post-update.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\pre-applypatch.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\pre-commit.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\pre-merge-commit.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\pre-push.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\pre-rebase.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\pre-receive.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\push-to-checkout.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\hooks\update.sample" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\index" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\info\exclude" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\logs\HEAD" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\logs\refs\heads\master" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\logs\refs\remotes\origin\master" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\10\73c0cd758ad5d1c776938388a798f8d63b0973" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\18\388126058abfff937741cc752076371d5c49fe" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\1c\fb8569e3510e9dddc10b37215bf65703e9d5fc" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\1d\b7f4783ae69dad343b3ed39ff583f163cd447d" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\39\d978686d1e836b3fd676c9e29c7f7a58e82432" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\50\554a7c520fe81b189c7e2b60ecc62600a58d4e" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\74\81dcfde28f1698f9db1e26c8d20a3a57ac6a57" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\75\6b4fd2f851de5c04214a059545ee291c9ede25" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\98\6f29987d1d79be083b52bdabb1990b61d45023" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\9d\5bc03e655890ec6ace71ed351b1780d96268ec" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\c3\ed711ce76699ce5d496216349f835ab88d8a8b" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\c9\4df33b8aa78d5a5edde8102fcd1a3966f5448a" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\fc\1e3c12c76dcb6961c53b4ed3a2c87ec39cf9fc" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\refs\heads\master" />
+    <None Include="wwwroot\assets\css\Fetch.Ajax\.git\refs\remotes\origin\master" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\css\Fetch.Ajax\.git\fsmonitor--daemon\cookies\" />
+    <Folder Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\info\" />
+    <Folder Include="wwwroot\assets\css\Fetch.Ajax\.git\objects\pack\" />
+    <Folder Include="wwwroot\assets\css\Fetch.Ajax\.git\refs\tags\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

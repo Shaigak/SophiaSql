@@ -1,0 +1,750 @@
+.head {
+  width: 1520px;
+  height: 70px;
+  background-color: black;
+}
+.head .chooseLanguage {
+  position: absolute;
+  bottom: 190px;
+  right: 1540px;
+  z-index: 5;
+  margin-left: 80px;
+}
+.head .chooseLanguage .glag {
+  width: 20px;
+  height: 20px;
+}
+.head .chooseLanguage .glag2 {
+  width: 20px;
+  height: 20px;
+}
+.head .chooseLanguage .glag3 {
+  width: 20px;
+  height: 20px;
+}
+.head .chooseLanguage .glag4 {
+  width: 20px;
+  height: 20px;
+}
+.head .chooseLanguage .glag5 {
+  width: 18px;
+  height: 18px;
+}
+.head .chooseLanguage .glag6 {
+  width: 18px;
+  height: 18px;
+}
+.head .chooseLanguage .threeflag {
+  width: 20px;
+  height: 20px;
+}
+.head .chooseLanguage h1 {
+  color: #969696;
+  font-size: 15px;
+  margin-left: 160px;
+  position: absolute;
+  top: 20px;
+  cursor: pointer;
+}
+.head .chooseLanguage .downArrow {
+  color: #969696;
+  font-size: 11px;
+  margin-left: 220px;
+  top: 23px;
+  position: absolute;
+  cursor: pointer;
+}
+.head .list .heart-icon {
+  position: absolute;
+  margin-left: 1050px;
+  top: 20px;
+  font-size: 20px;
+  color: #969696;
+  cursor: pointer;
+}
+.head .list span {
+  position: absolute;
+  color: #969696;
+  font-size: 15px;
+  margin-left: 1080px;
+  top: 17px;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.head .compare .loading {
+  position: absolute;
+  margin-left: 1170px;
+  top: 20px;
+  font-size: 18px;
+  color: #969696;
+  cursor: pointer;
+}
+.head .compare span {
+  position: absolute;
+  color: #969696;
+  font-size: 15px;
+  margin-left: 1200px;
+  top: 17px;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.head .login .userLog {
+  position: absolute;
+  margin-left: 1300px;
+  top: 20px;
+  font-size: 15px;
+  color: #969696;
+  cursor: pointer;
+}
+.head .login span {
+  position: absolute;
+  color: #969696;
+  font-size: 14px;
+  margin-left: 1322px;
+  top: 17px;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.head .itemValyuta li {
+  position: relative;
+  margin-left: 80px;
+  top: 50px;
+  font-size: 15px;
+  background-color: white;
+  list-style: none;
+}
+.head .itemValyuta .usd {
+  width: 250px;
+  height: 50px;
+  color: orangered;
+  background-color: white;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+.head .itemValyuta .euro {
+  width: 250px;
+  height: 50px;
+  color: orangered;
+  background-color: white;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#header2 {
+  width: 1520px;
+  height: 90px;
+  background-color: #EF6C00;
+}
+#header2 .firstImg img {
+  position: absolute;
+  margin-left: 90px;
+  top: 90px;
+}
+#header2 .searchM {
+  position: absolute;
+  top: 90px;
+  margin-left: -120px;
+}
+#header2 .searchM input {
+  width: 520px;
+  height: 50px;
+}
+#header2 .searchM button {
+  position: absolute;
+  height: 50px;
+  width: 130px;
+  background-color: #333333;
+  border: none;
+}
+
+.first12 {
+  position: absolute;
+  bottom: 500px;
+  left: 130px;
+  z-index: 1 !important;
+}
+
+.dropdown {
+  width: 100px;
+  margin-left: 80px;
+  margin-top: 12px;
+}
+.dropdown .button {
+  background-color: black;
+  border: none;
+  color: #969696;
+}
+
+.dropdown-menu .firstflag {
+  width: 20px;
+  height: 20px;
+}
+.dropdown-menu .secondflag {
+  width: 20px;
+  height: 20px;
+}
+.dropdown-menu .threeflag {
+  width: 20px;
+  height: 20px;
+}
+.dropdown-menu .fourflag {
+  width: 20px;
+  height: 20px;
+}
+
+.contact {
+  position: relative;
+}
+.contact i {
+  position: absolute;
+  margin-left: 130px;
+  top: 30px;
+  font-size: 30px;
+  color: white;
+}
+.contact .helpline {
+  position: absolute;
+  margin-left: 150px;
+  top: 23px;
+  font-size: 12px;
+  color: white;
+}
+.contact .number {
+  position: absolute;
+  margin-left: 167px;
+  top: 37px;
+  font-size: 24px;
+  color: aliceblue;
+}
+.contact .icon2 {
+  cursor: pointer;
+  left: 220px;
+  font-size: 20px;
+}
+.contact .price {
+  position: absolute;
+  left: 372px;
+  top: 40px;
+  color: white;
+}
+.contact .basketCount {
+  position: absolute;
+  background-color: black;
+  color: white;
+  left: 370px;
+  border-radius: 11px;
+  height: 17px;
+  width: 17px;
+  top: 18px;
+}
+.contact .basketCount .count {
+  position: absolute;
+  bottom: 1px;
+  font-size: 12px;
+  left: 5px;
+}
+.contact .basketUp {
+  border-radius: 7px;
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  background-color: white;
+  top: 80px;
+  right: -90px;
+  z-index: 5;
+}
+.contact .basketUp h1 {
+  position: absolute;
+  color: #000;
+  font-size: 15px;
+  top: 15px;
+}
+.contact .basketUp span {
+  position: absolute;
+  color: black;
+  left: 150px;
+  top: 10px;
+  font-size: 15px;
+}
+.contact .basketUp .itemWor {
+  margin-left: 15px;
+  top: 13px;
+  font-size: 12px;
+}
+.contact .basketUp .addProd {
+  position: absolute;
+  color: #000;
+  top: 70px;
+  right: 30px;
+  width: 150PX;
+}
+.contact .basketUp .checkCard {
+  position: absolute;
+  left: 10px;
+}
+.contact .basketUp .checkCard b {
+  font-size: 13px;
+}
+.contact .basketUp .lineProduct {
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background-color: black;
+  left: 15px;
+  top: 40px;
+}
+
+main #navigation {
+  height: 70px;
+  border-bottom: 1px solid #f3f3f3;
+  display: flex;
+  justify-content: center;
+}
+main #navigation .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 77%;
+}
+main #navigation .container h4 {
+  font-size: 14px;
+  font-weight: unset;
+}
+main #navigation .container .home-contact {
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+}
+main #navigation .container .home-contact a,
+main #navigation .container .home-contact span,
+main #navigation .container .home-contact h4 {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+main #content {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+main #content .container {
+  width: 75%;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+}
+main #content .container .form {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+main #content .container .form .left h1 {
+  font-size: 30px;
+}
+main #content .container .form .left .address-phone-email {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+main #content .container .form .left .address-phone-email i {
+  font-size: 25px;
+  color: #ef6c00;
+}
+main #content .container .form .left .address-phone-email .text {
+  margin-left: 15px;
+}
+main #content .container .form .left .address-phone-email .text h5 {
+  color: #777777;
+  font-weight: unset;
+}
+main #content .container .form .left .address-phone-email:nth-child(2) {
+  margin-top: 30px;
+}
+main #content .container .form .left hr {
+  width: 560px;
+  border: none;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin-top: 20px;
+}
+main #content .container .form .right h1 {
+  font-size: 30px;
+}
+main #content .container .form .right form .group {
+  position: relative;
+  margin-top: 30px;
+}
+main #content .container .form .right form .group input,
+main #content .container .form .right form .group textarea {
+  font-size: 14px;
+  display: block;
+  width: 610px;
+  border: none;
+  border-bottom: 1px solid #949494;
+  outline: none;
+}
+main #content .container .form .right form .group input:focus ~ label, main #content .container .form .right form .group input:valid ~ label,
+main #content .container .form .right form .group textarea:focus ~ label,
+main #content .container .form .right form .group textarea:valid ~ label {
+  top: -8px;
+  font-size: 10px;
+}
+main #content .container .form .right form .group input:focus ~ .bar::before, main #content .container .form .right form .group input:focus ~ .bar::after,
+main #content .container .form .right form .group textarea:focus ~ .bar::before,
+main #content .container .form .right form .group textarea:focus ~ .bar::after {
+  width: 50%;
+}
+main #content .container .form .right form .group input {
+  padding: 10px 0 10px 5px;
+}
+main #content .container .form .right form .group textarea {
+  height: 110px;
+  padding: 10px 0 0 5px;
+  resize: none;
+}
+main #content .container .form .right form .group label {
+  color: #999;
+  font-size: 14px;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.4s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+main #content .container .form .right form .group .bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+main #content .container .form .right form .group .bar::before, main #content .container .form .right form .group .bar::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: var(--beforeAndAfterBack, #ef6c00);
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  z-index: 1;
+}
+main #content .container .form .right form .group .bar::before {
+  left: 50%;
+}
+main #content .container .form .right form .group .bar::after {
+  right: 50%;
+}
+main #content .container .form .right form .group .validation {
+  font-size: 10px;
+  color: red;
+  transition: 0.4s;
+  opacity: 0;
+}
+main #content .container .form .right form button {
+  width: 100px;
+  height: 45px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 40px;
+  background-color: #ef6c00;
+  margin-bottom: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.secondNav {
+  background-color: #f3f3f3;
+}
+.secondNav .container {
+  max-width: 95% !important;
+}
+.secondNav .nvbar {
+  background-color: #f3f3f3 !important;
+}
+.secondNav .nvbar .navbar-nav {
+  display: flex;
+  gap: 70px;
+}
+.secondNav .nvbar .nav-item a {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+.secondNav .pagesone {
+  bottom: -30px;
+  margin-left: -40px;
+}
+.secondNav .one1 {
+  top: -12px;
+  margin-left: -20px;
+}
+.secondNav .blogchange {
+  margin-left: -70px;
+}
+
+#footer {
+  margin-top: 20px;
+}
+#footer .servicesFooter a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+#footer .servicesFooter h6 {
+  font-size: 20px;
+}
+#footer .logoSopia p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+#footer .searchFooter h6 {
+  font-size: 20px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+#footer .searchFooter a {
+  text-decoration: none;
+  font-weight: 600;
+}
+#footer .searchFooter input {
+  width: 260px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid black !important;
+}
+#footer .buttonFooter {
+  margin-top: 20px;
+  width: 260px;
+  height: 45px;
+  background-color: #ef6c00;
+}
+#footer .buttonFooter .subs {
+  font-size: 15px;
+  color: white;
+}
+#footer .contactFooter h6 {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#footer .contactFooter i {
+  font-size: 18px;
+}
+#footer .iconsf0 li {
+  width: 33px;
+  height: 33px;
+  border: 1px solid #444;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 5px;
+}
+#footer .circleIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  justify-content: space-around;
+}
+#footer .circleIcon2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  justify-content: space-around;
+  margin-left: 5px;
+}
+#footer .circleIcon3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  justify-content: space-around;
+  margin-left: 5px;
+}
+#footer .circleIcon4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  justify-content: space-around;
+  margin-left: 5px;
+}
+#footer .iconDown {
+  margin-left: 10px;
+  justify-content: space-between;
+}
+#footer .iconDown i {
+  margin-top: 6px;
+  margin-left: -3px;
+  font-size: 15px;
+}
+
+#bar .dropdown {
+  width: 40px;
+  background-color: white;
+}
+#bar .dropdown button {
+  background-color: aliceblue;
+  color: black;
+}
+
+#slideshow {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  padding: 1% 1% 45% 1%;
+  top: -13px;
+  box-sizing: border-box;
+}
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+#slideshow > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+#slideshow:hover i,
+#slideshow:hover .slider-dots {
+  opacity: 1;
+}
+
+.slidebtn {
+  z-index: 99;
+  background: transparent;
+  outline: none;
+  border: none;
+  transition: all 0.3s;
+}
+
+.slidebtn:active,
+.slidedtn:focus {
+  outline: none;
+}
+
+.prev {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+}
+
+.next {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.slider-dots {
+  opacity: 0.2;
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 3%;
+  transform: translate(-50%, 0);
+  z-index: 99;
+  transition: all 0.3s;
+}
+.slider-dots li {
+  color: #000;
+  display: inline;
+  font-size: 48px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.slider-dots li.active-dot {
+  color: #fff;
+}
+
+.fa-chevron-circle-right {
+  display: none !important;
+}
+
+.fa-chevron-circle-left {
+  display: none !important;
+}
+
+.dropdown1 {
+  background-color: #F3F3F3;
+  top: 60px;
+  left: 10px;
+  gap: 15px;
+}
+
+.one1 {
+  position: absolute;
+  background-color: #f3f3f3 !important;
+}
+
+.pages {
+  background-color: #F3F3F3 !important;
+  bottom: 13px;
+  margin-left: 150px;
+}
+
+.dropdown1 span {
+  padding: 10px;
+  top: 70px;
+  font-size: 20px;
+  height: 60px;
+  margin-left: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+
+.banner1 {
+  width: 1300px;
+  height: 130px;
+  border: 1px solid black;
+  opacity: 0.3;
+}
+
+.pagesChange {
+  color: black;
+}
+.pagesChange span:hover {
+  background-color: #F3F3F3;
+}
+
+.dollar {
+  font-size: 10px;
+  height: 20px;
+  width: 30px;
+  color: white;
+  margin-left: 20px;
+  background-color: orange;
+  padding: 4px;
+}
+
+.euro {
+  font-size: 10px;
+  height: 20px;
+  width: 30px;
+  color: white;
+  margin-left: 20px;
+  background-color: orange;
+  padding: 4px;
+}
+
+.list .texdec {
+  text-decoration: none;
+  color: gray;
+}
+
+.login .texdec {
+  text-decoration: none;
+  color: gray;
+}/*# sourceMappingURL=contact.css.map */

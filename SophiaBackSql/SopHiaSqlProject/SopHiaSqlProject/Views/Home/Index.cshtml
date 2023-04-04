@@ -1,0 +1,1799 @@
+﻿
+@model Slider
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+    <section id="header2">
+        <div class="orangeHeader">
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="firstImg">
+                            <a href="index.html"><img src="./assets/img/logo-white.png" alt=""></a>
+                    </div>
+
+                </div>
+
+                <div class="col-4">
+                    <div class="searchM">
+                        <input type="text" placeholder="Type to search...">
+                        <button type="button" class="btn btn-secondary">SEARCH</button>
+                    </div>
+
+                </div>
+
+                <div class="col-4">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="helpline">Helpline:</span>
+                        <span class="number">02(981)336 111</span>
+
+                        <i class="fa-solid fa-cart-plus icon2"></i>
+
+
+                        <span class="price">0.00</span> 
+
+                        <span class="basketCount ">
+                            <span class="count">0</span>
+
+                        </span>
+
+                        <div class="basketUp d-none">
+                         <h1 class="checkCard"><b><a href="cart.html">CHECK CARD</a></b></h1>
+
+
+                            <table class="table tablhd">
+                                <thead>
+                                    <tr>
+                                       
+                                        
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                   
+                                </tbody>
+                            </table>
+                            
+                            
+                            <span class="itemcoun">0</B></span> <span class="itemWor"><B>ITEM</B></span>
+                            <div class="lineProduct"></div>
+                            <!-- <h1 class="addProd">Please add product</h1> -->
+
+                            
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="secondNav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary nvbar">
+                <div class="container-fluid">
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">CONTACT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">ABOUT</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle one1" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="pagesone">PAGES</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                                    <li><a class="dropdown-item" href="about.html">About</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                                    <li><a class="dropdown-item" href="login.html">Account</a></li>
+                                    <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                                    <li><a class="dropdown-item" href="account.html">Blog</a></li>
+                                    <li><a class="dropdown-item" href="detail.html">Product Detail</a></li>
+                                    <li><a class="dropdown-item" href="wishlist.html">Wishlist</a></li>
+                                    <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><span class="blogchange">BLOG</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+
+    <main>
+
+        <section id="cards">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/img/@Model.Image" alt="">
+                        <h1>@Model.Title</h1>
+                        <h3>@Model.Description</h3>
+                        <button class="shop">SHOP NOW</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/banner3.jpg" alt="">
+                        <h1>Biggest discount</h1>
+                        <h3>Check the promotion</h3>
+                        <button class="shop">SHOP NOW</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/bb204039-b34f-4d84-8a5b-f7103d896efd.jfif" alt="">
+                        <h1>Biggest sale</h1>
+                        <h3>Dont miss it</h3>
+                        <button class="shop">SHOP NOW</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/1e9a5a01-6774-460e-9bd5-4eb7850dd724.jfif" alt="">
+                        <h1>Our best products</h1>
+                        <h3>Special selection</h3>
+                        <button class="shop">SHOP NOW</button>
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+        <section id="cardsDown">
+            <div class="container">
+
+                <div class="card1">
+
+                    <div class="row">
+
+                        <div class="col-3">
+
+                            <div class="iconGift">
+                                <i class="fa-solid fa-gifts font1"></i>
+                                <span class="bonusTop"><b>BONUS PLUS</b></span>
+                                <p class="bonusTop2">Get a bonus plus for buying more that three products</p>
+                            </div>
+
+                            <div class="line">
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-3">
+
+                            <div class="iconGift">
+                                <i class="fa-solid fa-car-side font2"></i>
+                                <span class="bonusTop"><b>FREE SHIPPING</b></span>
+                                <p class="bonusTop3">Free shipping on all orders over $99</p>
+                            </div>
+
+                            <div class="line">
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+
+                            <div class="iconGift">
+                                <div class="iconBack">
+                                    <i class="fa-solid fa-dollar-sign font3"></i>
+                                </div>
+                                <span class="bonusTop"><b>MONEY BACK GUARANTEE</b></span>
+                                <p class="bonusTop4">100% money back guarantee</p>
+                            </div>
+
+                            <div class="line4">
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-3">
+
+                            <div class="iconGift">
+                                <i class="fa-solid fa-clock-rotate-left font4"></i>
+                                <span class="bonusTop"><b>ONLINE SUPPORT 24/7</b></span>
+                                <p class="bonusTop5">Call us: 02 3555 65454 55</p>
+                            </div>
+
+                            <div class="line">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="product33">
+
+            <main class="main">
+                <div class="container">
+                    <div class="tab">
+                        <div class="tab-menu">
+                            <button class="tab-menu-link" data-content="item-1">
+                                <span data-title="item-1">FEATURED PRODUCTS</span>
+                            </button>
+                            <button class="tab-menu-link is-active" data-content="item-2">
+                                <span data-title="item-2">LATEST PRODUCTS </span>
+                            </button>
+                            <button class="tab-menu-link" data-content="item-3">
+                                <span data-title="item-3">ON SALE PRODUCTS</span>
+                            </button>
+                        </div>
+                        <div class="tab-bar">
+
+
+                            <div class="tab-bar-content" id="item-1">
+
+                                <div class="owl-carousel owl-theme  ">
+
+
+                                    <div class="item item2" data-id="1">
+
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                        <div class="image-setting ">
+
+                                            <img src="./assets/img/headphone1 (1).png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">ONTEC E Headset</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart "></i>
+                                                <i class="fa-solid fa-eye"></i>
+
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+                                            </div>
+
+
+                                            <div class="modalIcon "></div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">266.00</span> 
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div class="item item5" data-id="2">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/headphone2.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">Headset Perro</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye "></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">88.00</span>  
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="item item6" data-id="3">
+                                        <div class="image-setting">
+                                            <img src="./assets/img/air.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">Solo Headset</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye "></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">235.00</span>  
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item item7" data-id="4">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/head6.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">ONTEC E Headset</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">175.00</span> 
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="item item8" data-id="5">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/nod4.png" alt="">
+                                            <span class="headphone">Laptops</span>
+                                            <p class="onTec">Tablet Red 8500U 2TB</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">100.00</span>  
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="item item9 " data-id="6">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/ultra.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">Ultra Whitte Wireless</p>
+
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">350.00</span>  
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="item item12" data-id="7">
+
+                                        <div class="image-setting ">
+                                            <img src="./assets/img/laptop.png" alt="">
+                                            <span class="headphone">Laptops</span>
+                                            <p class="onTec">Ellite Pro Book 15'6 7500</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+ 
+                                            <span class="price">850.00</span> 
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="tab-bar-content is-active" id="item-2">
+
+
+                                <div class="owl-carousel owl-theme item3 ">
+
+                                    <div class="item item2" data-id="1">
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                        <div class="image-setting">
+
+
+
+                                            <img src="./assets/img/headphone1 (1).png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">ONTEC E Headset</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+                                            </div>
+
+
+
+
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">266.00</span>  
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+
+
+
+
+
+
+                                        </div>
+
+                                    </div>
+                                    <div class="item item5" data-id="2">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/headphone2.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">Headset Perro</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+                                            </div>
+
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            
+                                            <span class="price">88.00 </span>  
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+                                    <div class="item item6" data-id="3">
+                                        <div class="image-setting">
+                                            <img src="./assets/img/air.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">Solo Headset</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">235.00</span> 
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item item7" data-id="4">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/head6.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">ONTEC E Headset</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">175.00</span> 
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="item item8" data-id="5">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/nod4.png" alt="">
+                                            <span class="headphone">Laptops</span>
+                                            <p class="onTec">Tablet Red 8500U 2TB</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">100.00</span>  
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div class="item item9 " data-id="6">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/ultra.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">Ultra Whitte Wireless</p>
+
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">350.00</span>  
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="item item10" data-id="7">
+
+                                        <div class="image-setting ">
+                                            <img src="./assets/img/laptop.png" alt="">
+                                            <span class="headphone">Laptops</span>
+                                            <p class="onTec">Ellite Pro Book 15'6 7500</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye "></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">850.00</span>  
+                                            <pre></pre>
+
+                                            <button class=" buttonadd buttondelete "><span class="addcar"><b>ADD TO
+                                                        CART</b> </span> <i
+                                                    class="fa-solid fa-cart-shopping cart1"></i></button>
+                                        </div>
+
+
+
+                                    </div>
+
+
+
+
+
+                                </div>
+
+
+
+                            </div>
+                            <div class="tab-bar-content" id="item-3">
+                                <div class="owl-carousel owl-theme item3 ">
+
+
+                                    <div class="item item2" data-id="1">
+
+
+                                        <i class="bi bi-arrow-right"></i>
+
+                                        <div class="image-setting">
+
+
+
+                                            <img src="./assets/img/headphone1 (1).png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">ONTEC E Headset</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">266.00</span>  
+                                            <pre></pre>
+
+                                            <div class="hover1">
+                                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b>
+                                                    </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="item item5" data-id="2">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/headphone2.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">Headset Perro</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">88.00</span>  
+                                            <pre></pre>
+
+                                            <button class=" buttonadd "><span class="addcar"><b>ADD TO CART</b> </span>
+                                                <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="item item6" data-id="3">
+                                        <div class="image-setting">
+                                            <img src="./assets/img/air.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">Solo Headset</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">235.00</span>  
+                                            <pre></pre>
+
+                                            <button class=" buttonadd "><span class="addcar"><b>ADD TO CART</b> </span>
+                                                <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="item item8" data-id="4">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/nod4.png" alt="">
+                                            <span class="headphone">Laptops</span>
+                                            <p class="onTec">Tablet Red 8500U 2TB</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+
+                                            <span class="price">100.00</span>  
+                                            <pre></pre>
+
+                                            <button class=" buttonadd "><span class="addcar"><b>ADD TO CART</b> </span>
+                                                <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div class="item item7" data-id="5">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/head6.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">ONTEC E Headset</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">175.00</span>  
+                                            <pre></pre>
+
+                                            <button class=" buttonadd "><span class="addcar"><b>ADD TO CART</b> </span>
+                                                <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="item item9" data-id="6">
+
+                                        <div class="image-setting">
+                                            <img src="./assets/img/ultra.png" alt="">
+                                            <span class="headphone">Headphones</span>
+                                            <p class="onTec">Ultra Whitte Wireless</p>
+
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">350.00</span>  
+                                            <pre></pre>
+
+                                            <button class=" buttonadd "><span class="addcar"><b>ADD TO CART</b> </span>
+                                                <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="item item10" data-id="5">
+
+                                        <div class="image-setting ">
+                                            <img src="./assets/img/laptop.png" alt="">
+                                            <span class="headphone">Laptops</span>
+                                            <p class="onTec">Ellite Pro Book 15'6 7500</p>
+
+                                            <div class="likeme">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-rotate like1"></i>
+                                                <pre></pre>
+
+
+                                            </div>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+                                            <i class="fa-solid fa-star stars"></i>
+
+                                            <span class="price">850.00</span>
+                                            <pre></pre>
+
+                                            <button class=" buttonadd buttondelete "><span class="addcar"><b>ADD TO
+                                                        CART</b> </span> <i
+                                                    class="fa-solid fa-cart-shopping cart1"></i></button>
+                                        </div>
+
+
+
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+            </main>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <section id="products">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="owl-carousel owl-theme item3 ">
+                        
+                       
+                        <div class="item">
+
+                            
+
+                            < <div class="arrow1">
+                                <i class="fa-solid fa-angle-left righIcon2"></i>
+                            </div> -->
+
+        <!-- <i class="bi bi-arrow-right"></i>
+
+                            <div class="image-setting">
+
+                              
+                                
+                                <img src="./assets/img/headphone1 (1).png" alt="" > 
+                                <span class="headphone" >Headphones</span>
+                                <p class="onTec">ONTEC E Headset</p>
+
+                                <div class="likeme d-none">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                    <i class="fa-solid fa-rotate like1"></i><pre></pre>
+                                    
+                                    
+                                </div>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+
+                                <span class="price">$266.00</span> <pre></pre>
+
+                               <div class="hover1">
+                                <button class="buttonadd "><span class="addcar"><b>ADD TO CART</b> </span> <i class="fa-solid fa-cart-shopping cart1"></i></button></div> 
+                            </div>
+
+                         </div>
+                         <div class="item">
+
+                            <div class="image-setting">
+                                <img src="./assets/img/headphone2.png" alt="">
+                                <span class="headphone" >Headphones</span>
+                                <p class="onTec">Headset Perro</p>
+
+                                <div class="likeme">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                    <i class="fa-solid fa-rotate like1"></i><pre></pre>
+                                    
+                                    
+                                </div>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+
+                                <span class="price">$88.00</span> <pre></pre>
+
+                                <button class=" buttonadd "><span class="addcar"><b>ADD TO CART</b> </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+                            <div class="image-setting">
+                                <img src="./assets/img/air.png" alt=""> 
+                                <span class="headphone" >Headphones</span>
+                                <p class="onTec">Solo Headset</p>
+
+                                <div class="likeme">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                    <i class="fa-solid fa-rotate like1"></i><pre></pre>
+                                    
+                                    
+                                </div>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+
+                                <span class="price">$235.00</span> <pre></pre>
+
+                                <button class=" buttonadd "><span class="addcar"><b>ADD TO CART</b> </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="item">
+
+                            <div class="image-setting">
+                                <img src="./assets/img/head6.png" alt="">
+                                <span class="headphone" >Headphones</span>
+                                <p class="onTec">ONTEC E Headset</p>
+
+                                <div class="likeme">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                    <i class="fa-solid fa-rotate like1"></i><pre></pre>
+                                    
+                                    
+                                </div>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+
+                                <span class="price">$175.00</span> <pre></pre>
+
+                                <button class=" buttonadd "><span class="addcar"><b>ADD TO CART</b> </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                            </div>
+
+                        </div>
+                        
+                        <div class="item">
+
+                            <div class="image-setting">
+                                <img src="./assets/img/nod4.png" alt="">
+                                <span class="headphone" >Laptops</span>
+                                <p class="onTec">Tablet Red 8500U 2TB</p>
+
+                                <div class="likeme">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                    <i class="fa-solid fa-rotate like1"></i><pre></pre>
+                                    
+                                    
+                                </div>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+
+                                <span class="price">$100.00</span> <pre></pre>
+
+                                <button class=" buttonadd "><span class="addcar"><b>ADD TO CART</b> </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="image-setting">
+                                <img src="./assets/img/ultra.png" alt="">
+                                <span class="headphone" >Headphones</span>
+                                <p class="onTec">Ultra Whitte Wireless</p>
+
+
+                                <div class="likeme">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                    <i class="fa-solid fa-rotate like1"></i><pre></pre>
+                                    
+                                    
+                                </div>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+
+                                <span class="price">$350.00</span> <pre></pre>
+
+                                <button class=" buttonadd "><span class="addcar"><b>ADD TO CART</b> </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="image-setting">
+                                <img src="./assets/img/laptop.png" alt="">
+                                <span class="headphone" >Laptops</span>
+                                <p class="onTec">Ellite Pro Book 15'6 7500U</p>
+
+                                <div class="likeme">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                    <i class="fa-solid fa-rotate like1"></i><pre></pre>
+                                    
+                                    
+                                </div>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+                                <i class="fa-solid fa-star stars"></i>
+
+                                <span class="price">$850.00</span> <pre></pre>
+
+                                <button class=" buttonadd "><span class="addcar"><b>ADD TO CART</b> </span> <i class="fa-solid fa-cart-shopping cart1"></i></button>
+                            </div>
+
+                        </div>
+
+                       
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section> --> -->
+
+        <section id="procs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+
+                        <section id="box">
+                            <div class="box12 d-none">
+
+                                <h1 class="wirelessMondo">Wireless Mondo</h1>
+
+                                <div class="linePrice">
+
+
+                                </div>
+                                <h4 class="price12">$200.00 <span class="pracent">50% Off</span></h1>
+                                    <h4 class="price13">$266.00</h4>
+
+                                    <span class="words1">Product details</span>
+
+                                    <span class="words2">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                    </span>
+                                    <span class="words3">Avalibility: In Stock</span>
+
+                                    <span class="quantity">Quantity</span>
+
+                                    <input class="inputModal" value="1">
+                                    <span class="minus">-</span>
+                                    <span class="plus">+</span>
+
+
+                                    <div class="icons">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <i class="fa-solid fa-eye eyes"></i>
+                                    </div>
+
+
+
+
+                                    <img src="./assets/img/headphone1.png" alt="">
+                                    <i class="fa-solid fa-xmark deleteIcon"></i>
+
+                            </div>
+
+                            <div class="box13 d-none">
+
+                                <h1 class="wirelessMondo">Headset Perro</h1>
+                                <div class="linePrice">
+
+
+                                </div>
+                                <h4 class="price12 ">$70.00 <span class="pracent ">50% Off</span></h1>
+                                    <h4 class="price13">$88.00</h4>
+
+                                    <span class="words1">Product details</span>
+
+                                    <span class="words2">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                    </span>
+                                    <span class="words3">Avalibility: In Stock</span>
+
+                                    <span class="quantity">Quantity</span>
+
+                                    <input class="inputModal" value="1">
+                                    <span class="minus">-</span>
+                                    <span class="plus">+</span>
+
+
+                                    <div class="icons">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <i class="fa-solid fa-eye eyes"></i>
+                                    </div>
+
+
+                                    <img src="./assets/img/headphone1 (4).png" alt="">
+                                    <i class="fa-solid fa-xmark deleteIcon"></i>
+
+                            </div>
+
+                            <div class="box14 d-none">
+
+                                <h1 class="wirelessMondo">Solo Headset</h1>
+                                <div class="linePrice">
+
+
+                                </div>
+                                <h4 class="price12">$200.00 <span class="pracent">50% Off</span></h1>
+                                    <h4 class="price13">$235.00</h4>
+
+                                    <span class="words1"><b>Product details</b></span>
+
+                                    <span class="words2">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                    </span>
+                                    <span class="words3">Avalibility: In Stock</span>
+
+                                    <span class="quantity">Quantity</span>
+
+                                    <input class="inputModal" value="1">
+                                    <span class="minus">-</span>
+                                    <span class="plus">+</span>
+
+
+                                    <div class="icons">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <i class="fa-solid fa-eye eyes"></i>
+                                    </div>
+
+
+                                    <img src="./assets/img/headphone1 (5).png" alt="">
+                                    <i class="fa-solid fa-xmark deleteIcon"></i>
+
+                            </div>
+
+                            <div class="box15 d-none">
+
+                                <h1 class="wirelessMondo monda">Dono Purple Wireless</h1>
+                                <div class="linePrice">
+
+
+                                </div>
+                                <h4 class="price12">$70.00 <span class="pracent">50% Off</span></h1>
+                                    <h4 class="price13">$88.00</h4>
+
+                                    <span class="words1">Product details</span>
+
+                                    <span class="words2">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                    </span>
+                                    <span class="words3">Avalibility: In Stock</span>
+
+                                    <span class="quantity">Quantity</span>
+
+                                    <input class="inputModal" value="1">
+                                    <span class="minus">-</span>
+                                    <span class="plus">+</span>
+
+
+                                    <div class="icons">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <i class="fa-solid fa-eye eyes"></i>
+                                    </div>
+
+
+                                    <img src="./assets/img/headphone1 (7).png" alt="">
+                                    <i class="fa-solid fa-xmark deleteIcon"></i>
+
+                            </div>
+
+                            <div class="box16 d-none">
+
+                                <h1 class="wirelessMondo tablet17">Tablet Red 8500U 2TB</h1>
+                                <div class="linePrice">
+
+
+                                </div>
+                                <h4 class="price12">$200.00 <span class="pracent">50% Off</span></h1>
+                                    <h4 class="price13">$100.00</h4>
+
+                                    <span class="words1">Product details</span>
+
+                                    <span class="words2">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                    </span>
+                                    <span class="words3">Avalibility: In Stock</span>
+
+                                    <span class="quantity">Quantity</span>
+
+                                    <input class="inputModal" value="1">
+                                    <span class="minus">-</span>
+                                    <span class="plus">+</span>
+
+
+                                    <div class="icons">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <i class="fa-solid fa-eye eyes"></i>
+                                    </div>
+
+
+                                    <img src="./assets/img//laptop (2).png" alt="">
+                                    <i class="fa-solid fa-xmark deleteIcon"></i>
+
+                            </div>
+
+                            <div class="box17 d-none">
+
+                                <h1 class="wirelessMondo tablet17">Ultra Whitte Wireless</h1>
+                                <div class="linePrice">
+
+
+                                </div>
+                                <h4 class="price12">$200.00 <span class="pracent">50% Off</span></h1>
+                                    <h4 class="price13">$350.00</h4>
+
+                                    <span class="words1">Product details</span>
+
+                                    <span class="words2">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                    </span>
+                                    <span class="words3">Avalibility: In Stock</span>
+
+                                    <span class="quantity">Quantity</span>
+
+                                    <input class="inputModal" value="1">
+                                    <span class="minus">-</span>
+                                    <span class="plus">+</span>
+
+
+                                    <div class="icons">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <i class="fa-solid fa-eye eyes"></i>
+                                    </div>
+
+
+                                    <img src="./assets/img/ultra.png" alt="">
+                                    <i class="fa-solid fa-xmark deleteIcon"></i>
+
+                            </div>
+
+                            <div class="box18 d-none">
+
+                                <h1 class="wirelessMondo tablet17">Ellite Pro Book 15'6 7500U</h1>
+                                <div class="linePrice">
+
+
+                                </div>
+                                <h4 class="price12">$700.00 <span class="pracent">50% Off</span></h1>
+                                    <h4 class="price13">$850.00</h4>
+
+                                    <span class="words1">Product details</span>
+
+                                    <span class="words2">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.
+                                        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                    </span>
+                                    <span class="words3">Avalibility: In Stock</span>
+
+                                    <span class="quantity">Quantity</span>
+
+                                    <input class="inputModal" value="1">
+                                    <span class="minus">-</span>
+                                    <span class="plus">+</span>
+
+
+                                    <div class="icons">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <i class="fa-solid fa-eye eyes"></i>
+                                    </div>
+
+
+                                    <img src="./assets/img/laptop (3).png" alt="">
+                                    <i class="fa-solid fa-xmark deleteIcon"></i>
+
+                            </div>
+                        </section>
+
+
+                        <div class="newlaptops">
+                            <div class="text1">
+                                <p>NEW LAPTOPS</p>
+                            </div>
+                            <div class="text2">
+                                <p>Sale up to 30% off all products in the new collection.</p>
+                            </div>
+                            <div class="text3">
+                                <p>Shop Now</p>
+                            </div>
+                            <div class="img">
+                                <img src="./assets/img/1photo.jfif" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col">
+                        <div class="col-6">
+                            <div class="tablets-new">
+                                <div class="tablets1">
+                                    <div class="text-image">
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <p>TABLETS,</p>
+                                            </div>
+                                            <div class="text2">
+                                                <p>SMARTPHONES</p>
+                                            </div>
+                                            <div class="text3">
+                                                <p>AND MORE</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Sale up to 30%.</p>
+                                            </div>
+                                            <div class="text5">
+                                                <p>Shop Now</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+
+
+                            </div>
+                            <div class="cach-image">
+                                <div class="cachimage">
+                                    <div class="cach">
+                                        <div class="text1">
+                                            <p>CACH BIG</p>
+                                        </div>
+                                        <div class="text2">
+                                            <p>OFFERS ON</p>
+                                        </div>
+                                        <div class="text3">
+                                            <p>CAMERAS</p>
+                                        </div>
+                                        <div class="text4">
+                                            <p>Sale up to 20%.</p>
+                                        </div>
+                                        <div class="button">
+                                            <button><span>$66.99</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-6">
+                            <div class="new-cameras">
+                                <div class="tablets2">
+                                    <div class="text-image">
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <p>NEW</p>
+                                            </div>
+                                            <div class="text2">
+                                                <p>CAMERAS</p>
+                                            </div>
+                                            <div class="text3">
+                                                <p>COLLECTION</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Sale up to 30%.</p>
+                                            </div>
+                                            <div class="text5">
+                                                <p>Shop Now</p>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="feature">
+
+            <div class="container">
+
+                <div class="row">
+
+
+
+
+                    <div class="col-4">
+                        <div class="tool1">
+                            <div class="row">
+
+
+                                <div class="featured">
+                                    <h3>Featured Products</h1>
+                                </div>
+
+                                <div class="line2">
+
+                                </div>
+
+                                <div class="line1">
+
+                                </div>
+
+                                <div class="pictures">
+                                    <img src="./assets/img/first1.png" alt="">
+                                    <span class="span1">ONTEC E Headset</span>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <span class="price1">175.00</span>
+
+                                </div>
+
+                                <div class="pictures">
+                                    <img src="./assets/img/first22.png" alt="">
+                                    <span class="span1">ONTEC E Headset</span>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <span class="price1">235.00</span>
+
+                                </div>
+
+                                <div class="pictures">
+                                    <img src="./assets/img/first33.png" alt="">
+                                    <span class="span1">ONTEC E Headset</span>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <span class="price1">350.00</span>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- 2 -->
+
+
+                    <div class="col-4">
+                        <div class="tool1">
+                            <div class="row">
+
+
+                                <div class="featured">
+                                    <h3>Top Selling Products</h1>
+                                </div>
+
+                                <div class="line2">
+
+                                </div>
+
+                                <div class="line1">
+
+                                </div>
+
+                                <div class="pictures">
+                                    <img src="./assets/img/second1.png" alt="">
+                                    <span class="span1">ONTEC E Headset</span>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <span class="price1">100.00</span>
+
+                                </div>
+
+                                <div class="pictures">
+                                    <img src="./assets/img/second2.png" alt="">
+                                    <span class="span1">ONTEC E Headset</span>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <span class="price1">850.00</span>
+
+                                </div>
+
+                                <div class="pictures">
+                                    <img src="./assets/img/second3.png" alt="">
+                                    <span class="span1">ONTEC E Headset</span>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <span class="price1">850.00</span>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3/ -->
+
+                    <div class="col-4">
+                        <div class="tool1">
+                            <div class="row">
+
+
+                                <div class="featured">
+                                    <h3>Hot Offer</h1>
+                                </div>
+
+                                <div class="line2">
+
+                                </div>
+
+                                <div class="line1">
+
+                                </div>
+
+                                <div class="pictures">
+                                    <img src="./assets/img/third.png" alt="">
+                                    <span class="span1">ONTEC E Headset</span>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <span class="price1">940.00</span>
+
+                                </div>
+
+                                <div class="pictures">
+                                    <img src="./assets/img/third2.png" alt="">
+                                    <span class="span1">ONTEC E Headset</span>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <span class="price1">760.00</span>
+
+                                </div>
+
+                                <div class="pictures">
+                                    <img src="./assets/img/third3.png" alt="">
+                                    <span class="span1">ONTEC E Headset</span>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <i class="fa-solid fa-star stars itemStar"></i>
+                                    <span class="price1">1,200.00</span>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+        </section>
